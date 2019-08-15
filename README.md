@@ -1,6 +1,6 @@
-New lib R2K
+#New lib R2K
 
-input gradle
+##input gradle
 Added in dependencies in AndroidStudio build.gradle
 
 //build.gradle
@@ -15,6 +15,5 @@ allprojects {
     api 'com.github.SpeedataG:Device:1.6.8'
     
   }
-Low battery
-A battery charge of ≤15% will stop using UHF.
-电池温度 >=55度 禁止使用
+##Low battery
+*A battery charge of ≤15% will stop using UHF.
