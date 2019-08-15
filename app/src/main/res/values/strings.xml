@@ -1,0 +1,188 @@
+<resources>
+    <string name="app_name">UHF</string>
+
+    <string name="check_box_close">Exit  with close quick scan</string>
+    <string name="Search_Btn_T">SEARCH</string>
+    <string name="Read_Btn_T">READ</string>
+    <string name="Write_Btn_T">WRITE</string>
+    <string name="Direction_Btn_T">Direction</string>
+    <string name="Name_item">Current Card(by EPC):</string>
+    <string name="read_addr">Addr(hex)</string>
+    <string name="read_count">Count</string>
+    <string name="write_addr">Addr(hex)</string>
+    <string name="write_count">Count</string>
+    <string name="write_passwd">Password(hex)</string>
+    <string name="Ok_btn">OK</string>
+    <string name="Cancle_btn">Cancel</string>
+    <string name="Item_Read">Read Card</string>
+    <string name="Item_Write">Write Card</string>
+    <string name="Item_Search">Search Card</string>
+    <string name="Choose_Item">Please choose a card</string>
+    <string name="Choose_Btn_T">Choose</string>
+    <string name="Item_Choose">Choose a Card(by EPC)</string>
+    <string name="Set_Btn">Set Param</string>
+    <string name="Set_Btn_set">Set</string>
+    <string name="Item_OutLevel">Output level</string>
+    <string name="Item_Sensitivity">Sensitivity</string>
+    <string name="Item_FreqStart">Start freq(Khz)</string>
+    <string name="Item_FreqStop">End freq(Khz)</string>
+    <string name="Item_FreqIncrement">Increment(Khz)</string>
+    <string name="Item_Rssi">RSSI Threshold(dbm)</string>
+    <string name="Item_Set_Title">SETTING</string>
+    <string name="Set_Return_Btn">Go Back</string>
+    <string name="Status_SetFreqOK">Set Freq Ok</string>
+    <string name="Status_SetFreqFailed">Set Freq Failed</string>
+    <string name="Status_SetOutputLevelOk">Set Output Level Ok</string>
+    <string name="Status_SetOutputLevelFailed">Set Output Level Failed</string>
+    <string name="Status_SetSensOK">Set Sensitivity Ok</string>
+    <string name="Status_SetSensFailed">Set Sensitivity Failed</string>
+    <string name="Status_InvalidNumber">Invalid Number or Character</string>
+    <string name="Status_OutOfRange">Value is Out of Range</string>
+    <string name="Status_Underflow">Value is too small</string>
+    <string name="Status_comerror">Communication Error</string>
+    <string name="TextView_Null"> </string>
+    <string name="SetEPC_Btn">Set\nEPC</string>
+    <string name="SetPasswd_Btn">Set Password</string>
+    <string name="Lock_Btn">Lock/Unlock</string>
+    <string name="Kill_Btn">Kill Tag</string>
+    <string name="Item_Tag_EPC">Tag EPC</string>
+    <string name="Item_Access_Pswd">Access Password</string>
+    <string name="Item_Pswd_Type">Password Type</string>
+    <string name="Item_New_Password">New Password</string>
+    <string name="Item_EPC_Length">EPC Length(words)</string>
+    <string name="Item_New_EPC">New EPC</string>
+    <string name="Item_Lock_Area">Memory Space</string>
+    <string name="Item_Lock_Action">Action</string>
+    <string name="Start_Search_Btn">Start</string>
+    <string name="Stop_Search_Btn">Stop</string>
+    <string name="Status_Passwd_Length_Error">Password Length is Wrong</string>
+    <string name="Status_Content_Length_Error">Content Length is Wrong</string>
+    <string name="Status_Write_Error">Write Card Error</string>
+    <string name="Status_Lock_Card_Error">Lock Card Error</string>
+    <string name="Status_Wrong_Password_Type">Wrong Password Type</string>
+    <string name="Status_Select_Card_Ok">Select Card Ok</string>
+    <string name="Status_Select_Card_Faild">Select Card Faild</string>
+    <string name="Status_Read_Card_Ok">Read OK</string>
+    <string name="Status_Read_Card_Faild">Read Error</string>
+    <string name="Status_Write_Card_Ok">Write Ok</string>
+    <string name="Status_Write_Card_Faild">Write Faild</string>
+    <string name="Status_No_Card_Select">No Card Selected</string>
+    <string name="Status_Set_EPC_Error">Set EPC Error</string>
+    <string name="Status_Read_Pc_Error">Read PC Error</string>
+    <string name="Status_Freq_List_Full">Too Many Freq is add to list, Only some of success added.</string>
+    <string name="SearchEAS_Btn">Search EAS</string>
+    <string name="Item_EAS">Search EAS</string>
+
+    <string name="if_status">Please select a protocol to demo</string>
+    <string name="if_btn_6B">ISO18000-6B</string>
+    <string name="if_btn_6C">ISO18000-6C</string>
+    <string name="ISO6B_DEMO">Start Demo</string>
+
+    <string name="DEV_OPEN_ERR">Device open failed！Software will quit！</string>
+    <string name="DIA_ALERT">Warning！</string>
+    <string name="DIA_CHECK">Confirm</string>
+    <string name="VALUE_ZERO">00000000</string>
+    <!--    <string name=""></string>  -->
+    <string name="btn_set">SET</string>
+    <string name="view_wt">work time</string>
+    <string name="view_rt">rest time</string>
+    <string name="btn_bk">back</string>
+    <string name="cb_beep">beep new</string>
+    <string name="text_null"></string>
+    <string name="antenna_p">antenna power</string>
+    <string name="spt">speed\ntest</string>
+    <string name="sptss">start</string>
+    <string name="inv_set">Inv\nSet</string>
+    <string name="spinner_area_text">Read\Write Area</string>
+    <string name="write_content">Content(hex)</string>
+    <string name="pindian">FrequencyPoint:</string>
+    <string name="btn_export">Export</string>
+    <string name="set_success">Setting Success</string>
+    <string name="dialog_dir_epc">Fill in the EPC you are looking for</string>
+    <string name="dialog_dir_seek">Find Now</string>
+    <string name="setInv">Inventory Settings</string>
+
+    <!--inventory_setting layout-->
+    <string name="session">Session:</string>
+    <string name="btn_get">get</string>
+    <string name="algorithm">Algorithm</string>
+    <string name="dynamic_algorithm">DynamicAlgorithm</string>
+    <string name="fixed_algorithm">FixedAlgorithm</string>
+    <string name="target">Target:</string>
+    <string name="retry_count">retry count:</string>
+    <string name="start_q_value">Starting Q Value：</string>
+    <string name="q_value_range">Q value range:</string>
+    <string name="threshold">threshold：</string>
+    <string name="q_value">Q value:</string>
+    <string name="is_repeat">Whether to repeat:</string>
+    <string name="btn_set_algorithm">SetAlgorithm</string>
+    <string name="btn_get_algorithm">GetAlgorithm</string>
+    <string name="gen2_target">Target:</string>
+    <string name="btn_get_value">GetValue</string>
+
+    <!--InventorySettingDialog-->
+    <string name="toast_try">Please enter the number of retries</string>
+    <string name="toast_invalid_q">Q value is invalid if it is not within the value range of Q value 0 ~ 15</string>
+    <string name="toast_invalid_try">The number of invalid retries is not within the value range of 0 ~ 10</string>
+    <string name="toast_set_success">Set success</string>
+    <string name="toast_inventory">Taking inventory</string>
+    <string name="toast_set_fail">Set failed</string>
+    <string name="toast_start_q">Please enter the starting Q value</string>
+    <string name="toast_min_q">Please enter the minimum Q value</string>
+    <string name="toast_max_q">Please enter the maximum Q value</string>
+    <string name="toast_threshold">Please enter the threshold</string>
+    <string name="toast_q_range">Q range setting error</string>
+    <string name="toast_invalid_threshold">Not within the value range of threshold 0 ~ 255, invalid threshold</string>
+    <string name="toast_set_session">Set session successful</string>
+    <string name="toast_get_session">Get session successful</string>
+    <string name="toast_set_q_ok">The Q value was set successfully</string>
+    <string name="toast_set_q_fail">Q value setting failed</string>
+    <string name="toast_set_target_ok">Target set successfully</string>
+    <string name="toast_set_target_fail">Target setting failed</string>
+    <string name="toast_get_q_fail">Failed to get Q value</string>
+    <string name="toast_get_target_fail">Target fetch failed</string>
+    <string name="toast_get_success">Get success</string>
+    <string name="toast_get_fail">Get fail</string>
+
+    <string name="param_not_null">Parameter cannot be null</string>
+    <string name="set_read_fail">read region setting read failed</string>
+    <string name="invalid_select">Invalid select</string>
+    <string name="set_freq_fail">set freq region failed</string>
+    <string name="set_freq_ok">set freq region OK</string>
+    <string name="update_set">update settings</string>
+    <string name="power_range">value range is 0 ~ 33</string>
+    <string name="set_power_fail">set antenna power failed</string>
+    <string name="set_power_ok">set antenna power OK</string>
+    <string name="set_fix_ok">set fixed frequency OK</string>
+    <string name="set_fix_fail">set fixed frequency failed</string>
+    <string name="set_carrier_ok">Set carrier success</string>
+    <string name="set_carrier_fail">Set carrier failed</string>
+    <string name="toast_update_now">update settings now</string>
+
+    <string name="locking_card">Locking the card…</string>
+    <string name="param_error">Parameter error</string>
+    <string name="reading_card">Reading the card…</string>
+    <string name="writing_card">Writing card…</string>
+    <string name="changing_password">Changing password…</string>
+
+    <string-array name="arr_Session">
+        <item>s0</item>
+        <item>s1</item>
+        <item>s2</item>
+        <item>s3</item>
+    </string-array>
+
+    <string-array name="arr_target">
+        <item>Using</item>
+        <item>Forbidden</item>
+    </string-array>
+
+    <string-array name="arr_repeat">
+        <item>Forbidden</item>
+        <item>Using</item>
+    </string-array>
+
+    <string name="pikestaff_set">pikestaff settings</string>
+    <string name="item_scan">Laser scanning</string>
+    <string name="item_uhf">UHF</string>
+</resources>
